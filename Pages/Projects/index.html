@@ -1,0 +1,571 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>New Solutions Company</title>
+    <link rel="icon" href="assets/logo.PNG" sizes="16x16">
+
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/video/jquery.yu2fvl.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+  <body>
+    <div class="d-none" id="bodyOverlay"></div>
+    <!-- Overlay Search -->
+    <div class="overlay-search">
+      <div class="container">
+        <div class="row">
+          <div class="form_search-wrap">
+            <form>
+              <input class="search-input" placeholder="Type and hit Enter..." type="text">
+              <a href="#" class="search-close">
+                <span></span>
+                <span></span>
+              </a>
+            </form>
+          </div>
+        </div>
+      </div>
+   </div>
+    <header>
+      <!-- Nav bar -->
+      <nav id="Toggle-navbar" class="navbar-dark bg-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <!-- <h1 style="margin:0px;"><span class="largenav">Brand</span></h1> -->
+                    <a class="navbar-brand" href="#">
+                      <img src="assets/logo.png" alt="logo" style="width: 35px;" class="mr-2">
+                      New Solutions
+                    </a>
+                </div>
+                <div class="col-9 d-none d-xl-flex">
+                  <ul class="navbar-nav flex-row" style="font-weight: 600;">
+                    <li class="nav-item active mx-2">
+                      <a class="nav-link" href="../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item active mx-2">
+                      <a class="nav-link" href="../About/index.html">About Us</a>
+                    </li>
+                    <li class="nav-item active mx-2">
+                      <a class="nav-link" href="../Our Clients/index.html">Our Clients</a>
+                    </li>
+                    <li class="nav-item active mx-2 active-link">
+                      <a class="nav-link" href="index.html">Projects</a>
+                    </li>
+                    <li class="nav-item active mx-2">
+                      <a class="nav-link" href="../Contacts/index.html">Contacts</a>
+                    </li>
+                  </ul>
+                  <ul  class="navbar-nav d-flex flex-row ml-auto text-white">
+                    <li class="mx-2 d-flex justify-content-center align-items-center pointer search-btn"><i class="fas fa-search"></i></li>
+                    <li class="mx-2 d-flex justify-content-center align-items-center pointer" onclick="openInfoSidebar()"><i class="fas fa-bars"></i></li>
+                  </ul>
+                </div>
+                <div class="col-9 text-right">
+                  <h2 style="margin:0px;"><span class="aside-nav pointer" onclick="openNav()">☰</span></h2>
+                </div>
+            </div>
+        </div>
+      </nav>
+    <!-- aside bar -->
+    <aside id="mySidenav" class="sidenav">
+        <div class="container">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+            <i class="fas fa-times"></i>
+          </a>
+        </div>
+        <div class="mt-5">
+          <ul class="navbar-nav flex-column" style="font-weight: 600;">
+            <li class="nav-item active mx-2 mt-4">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active mx-2">
+              <a class="nav-link" href="Pages/About/index.html">About Us</a>
+            </li>
+            <li class="nav-item active mx-2">
+              <a class="nav-link" href="Pages/Our Clients/index.html">Our Clients</a>
+            </li>
+            <li class="nav-item active mx-2">
+              <a class="nav-link" href="Pages/Projects/index.html">Projects</a>
+            </li>
+            <li class="nav-item active mx-2">
+              <a class="nav-link" href="Pages/Contacts/index.html">Contacts</a>
+            </li>
+          </ul>
+        </div>
+    </aside>
+
+    <!-- aside info -->
+    <aside id="contactInfo" class="sidenav">
+      <div class="container">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeInfoSidebar()">
+          <i class="fas fa-times"></i>
+        </a>
+      </div>
+      <div class="mt-5">
+        <ul class="navbar-nav flex-column mx-4" style="font-weight: 600;">
+          <li class="my-2"> <i class="far fa-envelope"></i> engitech@mail.com</li>
+          <li class="my-2"><i class="far fa-clock"></i> Mon - Sat: 8.00 am - 7.00 pm</li>
+          <li class="my-2">We are creative, ambitious and ready for challenges! Hire Us</li>
+        </ul>
+
+        <div class="mx-auto my-5 icons">
+          <a href="#" class="text-reset text-decoration-none"> <i class="fab fa-twitter"></i> </a>
+          <a href="#" class="text-reset text-decoration-none"> <i class="fab fa-facebook-f"></i> </a>
+          <a href="#" class="text-reset text-decoration-none"> <i class="fab fa-linkedin-in"></i> </a>
+          <a href="#" class="text-reset text-decoration-none"> <i class="fab fa-instagram"></i> </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Home Section -->
+      <section id="section-home">
+        <div class="container p-0">
+          <div class="content d-flex justify-content-between align-items-center">
+            <h1 class="page-title text-white">Projects</h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../index.html" class="text-reset">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Our Projects</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <section id="section2" class="py-5">
+      <div class="container px-0 py-5">
+        <div class="header-content text-center mx-3 mb-5">
+            <span class="">// latest case studies</span>
+            <h2 class="main-heading">Introduce Our Projects</h2>
+            <p class="text-muted mt-4">Software development outsourcing is just a tool to achieve business goals.
+            But there is no way<br>to get worthwhile results without cooperation and trust between a client company.</p>
+        </div>
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab" aria-controls="pills-all" aria-selected="true">All</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-design-tab" data-toggle="pill" href="#pills-design" role="tab" aria-controls="pills-design" aria-selected="false">Design</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-development-tab" data-toggle="pill" href="#pills-development" role="tab" aria-controls="pills-development" aria-selected="false">Development</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-ideas-tab" data-toggle="pill" href="#pills-ideas" role="tab" aria-controls="pills-ideas" aria-selected="false">Ideas</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-technology-tab" data-toggle="pill" href="#pills-technology" role="tab" aria-controls="pills-technology" aria-selected="false">Technology</a>
+            </li>
+        </ul>
+        <div class="tab-content mt-5" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-1.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-2.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-3.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-4.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-5.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-6.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-7.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-8.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-9.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-10.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-11.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-12.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-design" role="tabpanel" aria-labelledby="pills-design-tab">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-8.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-9.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-10.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-11.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-12.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-development" role="tabpanel" aria-labelledby="pills-development-tab">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-3.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-4.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-5.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-6.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-7.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-ideas" role="tabpanel" aria-labelledby="pills-ideas-tab">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-1.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-2.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-3.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-4.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-5.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-technology" role="tabpanel" aria-labelledby="pills-technology-tab">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-2.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-3.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-4.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-7.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                  <div class="content pointer">
+                    <img src="assets/projects/project-details-10.jpg" class="img-fluid" alt="project-image"/>
+                    <a class="overlay text-reset text-decoration-none" href="#">
+                      <h3>App For Virtual Reality</h3>
+                      <span>DESIGN / IDEAS</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+   
+    <footer class="py-5">
+      <div class="container py-5">
+        <div class="footer-head text-center">
+          <img src="assets/logo.PNG" style="width: 50px;" />
+        </div>
+        <div class="footer-body text-center my-5 text-white">
+          <div class="row">
+            <div class="col-md-4 my-4">
+              <div class="address-info">
+                <div>
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <p>411 University St, Seattle, USA</p>
+                <h6>Our Address</h6>			        				        
+              </div>
+            </div>
+
+            <div class="col-md-4 my-4">
+              <div class="email-info">
+                <div>
+                  <i class="far fa-envelope"></i>
+                </div>
+                <p>contact@oceanthemes.net</p>
+                <h6>Our Mailbox</h6>			        				        
+              </div>
+            </div>
+
+            <div class="col-md-4 my-4">
+              <div class="phone-info">
+                <div>
+                  <i class="fas fa-phone"></i>
+                </div>
+                <p>+1 -800-456-478-23</p>
+                <h6>Our Phone</h6>			        				        
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer text-white text-center">
+          <ul class="d-flex list-unstyled justify-content-center my-4 flex-wrap">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+          <p>Copyright © 2021 LowCalories. All Rights Reserved.</p>
+          <div class="contact-icons">
+            <a href="#" class="text-reset text-decoration-none"> <i class="fab fa-twitter"></i> </a>
+            <a href="#" class="text-reset text-decoration-none"> <i class="fab fa-facebook-f"></i> </a>
+            <a href="#" class="text-reset text-decoration-none"> <i class="fab fa-linkedin-in"></i> </a>
+            <a href="#" class="text-reset text-decoration-none"> <i class="fab fa-instagram"></i> </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/counter/numscroller-1.0.js"></script>
+    <script src="js/Video/jquery.yu2fvl.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
